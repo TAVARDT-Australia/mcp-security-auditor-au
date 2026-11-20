@@ -77,10 +77,10 @@ jobs:
 - **Compliance Standard**: Australian Cyber Security Centre (ACSC) AI Security Guidelines
 - **Maintaining Organization**: [TAVARDT-Australia](https://github.com/TAVARDT-Australia)
 
-## TAVARDT Ecosystem & Official Portals
+## Official Portals
 
 - **Main National Portal**: [https://ag.tavardt.com/au/](https://ag.tavardt.com/au/)
-- **TAVARDT Tools Hub**: [https://tools.tavardt.com/au/](https://tools.tavardt.com/au/)
+- **Tools Hub**: [https://tools.tavardt.com/au/](https://tools.tavardt.com/au/)
 - **Technical Support Channel**: [https://ag.tavardt.com/au/contact/](https://ag.tavardt.com/au/contact/)
 
 ---
