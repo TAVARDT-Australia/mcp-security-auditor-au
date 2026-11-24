@@ -74,13 +74,8 @@ jobs:
 ## Compliance and Technical Standards
 
 - **Compliance Standard**: Australian Cyber Security Centre (ACSC) AI Security Guidelines
-- **Maintaining Organization**: [TAVARDT-Australia](https://github.com/TAVARDT-Australia)
 
-## Official Portals
 
-- **Main National Portal**: [Portal Institucional](https://ag.tavardt.com/au/)
-- **Tools Hub**: [Central de Ferramentas](https://tools.tavardt.com/au/)
-- **Technical Support Channel**: [Canal de Contato](https://ag.tavardt.com/au/contact/)
 
 ***
 
