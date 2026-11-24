@@ -75,7 +75,13 @@ jobs:
 
 - **Compliance Standard**: Australian Cyber Security Centre (ACSC) AI Security Guidelines
 
+***
 
+## Useful Links
+
+* **Corporate Portal:** https://ag.tavardt.com/au/
+* **Diagnostic Suite:** https://tools.tavardt.com/au/
+* **Technical Contact:** https://ag.tavardt.com/au/contact/
 
 ***
 
