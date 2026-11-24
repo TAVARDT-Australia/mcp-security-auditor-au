@@ -73,7 +73,6 @@ jobs:
 
 ## Compliance and Technical Standards
 
-- **Jurisdiction**: Australia
 - **Compliance Standard**: Australian Cyber Security Centre (ACSC) AI Security Guidelines
 - **Maintaining Organization**: [TAVARDT-Australia](https://github.com/TAVARDT-Australia)
 
@@ -87,3 +86,7 @@ jobs:
 
 ### License
 Released under the MIT License. See [LICENSE](LICENSE) for full details.
+
+***
+
+© 2026 TAVARDT. All rights reserved.
