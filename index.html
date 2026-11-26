@@ -661,6 +661,42 @@
     display: block;
   }
 
+
+    .faq-btn {
+      width: 100%;
+      background: transparent;
+      border: none;
+      padding: 16px 20px;
+      text-align: left;
+      font-size: 0.96rem;
+      font-weight: 600;
+      color: #f1f5f9;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+    }
+    .faq-btn:hover {
+      background: #0f172a;
+    }
+    .faq-icon {
+      font-size: 1.25rem;
+      color: #839bc8;
+      transition: transform 0.2s ease;
+    }
+    .faq-item.active .faq-icon {
+      transform: rotate(45deg);
+    }
+    .faq-body {
+      display: none;
+      padding: 0 20px 18px;
+      color: #94a3b8;
+      font-size: 0.92rem;
+      line-height: 1.6;
+    }
+    .faq-item.active .faq-body {
+      display: block;
+    }
 </style>
 <style id="tavardt-unified-enterprise-css">
 
@@ -1729,45 +1765,51 @@ footer > div:first-child {
 <h2 class="faq-title">Frequently Asked Questions on MCP Security</h2>
 <div class="faq-list">
 <div class="faq-item">
-<button class="faq-question" onclick="toggleFaq(this)" type="button">
+<button class="faq-btn" onclick="toggleFaq(this)" type="button">
 <span>Why are local MCP servers an attractive target for attackers?</span>
 <span class="faq-icon">+</span>
 </button>
-<div class="faq-answer">
+<div class="faq-body">
 <p>Local MCP servers expose native shell execution and local file access. An indirect prompt injection can weaponize these tools against the user workstation.</p>
 </div>
 </div>
 <div class="faq-item">
-<button class="faq-question" onclick="toggleFaq(this)" type="button">
+<button class="faq-btn" onclick="toggleFaq(this)" type="button">
 <span>How does runtime schema validation prevent command injection?</span>
 <span class="faq-icon">+</span>
 </button>
-<div class="faq-answer">
+<div class="faq-body">
 <p>By enforcing strict regex patterns, numeric ranges, and disallowed character sets on all tool arguments before the underlying binary executes.</p>
 </div>
 </div>
 <div class="faq-item">
-<button class="faq-question" onclick="toggleFaq(this)" type="button">
+<button class="faq-btn" onclick="toggleFaq(this)" type="button">
 <span>What is Human-in-the-Loop verification in MCP architectures?</span>
 <span class="faq-icon">+</span>
 </button>
-<div class="faq-answer">
+<div class="faq-body">
 <p>A security checkpoint requiring affirmative human authorization before any destructive, financial, or data-sharing tool is allowed to execute.</p>
 </div>
 </div>
 <div class="faq-item">
-<button class="faq-question" onclick="toggleFaq(this)" type="button">
+<button class="faq-btn" onclick="toggleFaq(this)" type="button">
 <span>How does TAVARDT secure enterprise MCP deployments?</span>
 <span class="faq-icon">+</span>
 </button>
-<div class="faq-answer">
+<div class="faq-body">
 <p>We audit MCP tool schemas, configure least-privilege sandbox runtimes, implement mTLS proxy layers, and establish telemetry for all tool invocations.</p>
 </div>
 </div>
 <div class="faq-item">
-<div class="faq-question"><span>What sandboxing patterns does TAVARDT recommend for MCP?</span><span class="faq-toggle">+</span></div>
-<div class="faq-answer"><p>We recommend containerized MCP daemons with ephemeral credentials, isolated network namespaces, and strict Human-in-the-Loop verification gates for high-risk actions.</p></div>
-</div></div>
+<button class="faq-btn" onclick="toggleFaq(this)" type="button">
+<span>What sandboxing patterns does TAVARDT recommend for MCP?</span>
+<span class="faq-icon">+</span>
+</button>
+<div class="faq-body">
+<p>We recommend containerized MCP daemons with ephemeral credentials, isolated network namespaces, and strict Human-in-the-Loop verification gates for high-risk actions.</p>
+</div>
+</div>
+</div>
 </section>
 <div class="cta-card">
 <h3>Require Enterprise Hardening for MCP Deployments?</h3>
